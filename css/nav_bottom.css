@@ -1,0 +1,72 @@
+@import "var.css";
+
+.nav-bottom {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.nav-container {
+  width: 90%;
+  display: flex;
+}
+
+.nav-container-start h3 {
+  font-size: 28px;
+  font-weight: 1000;
+  margin-bottom: 24px;
+}
+
+.nav-container-start p {
+  line-height: 1.4;
+  color: var(--color-grey);
+  font-weight: 300;
+  margin-bottom: 14px;
+}
+
+.nav-container-start span {
+  display: block;
+  line-height: 1.4;
+}
+
+.nav-container-start button {
+  background-color: var(--color-white);
+  padding: 16px 24px;
+  border: 2px solid rgb(1, 1, 1, 0.1);
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-container-start {
+  width: 40%;
+}
+
+.nav-container-end {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.nav-container-end ul li {
+  font-family: "Montserrat", sans-serif !important;
+  margin-bottom: 20px;
+  color: var(--color-grey);
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-container-start {
+    width: 100%;
+    margin-bottom: 64px;
+  }
+
+  .nav-container-end {
+    width: 100%;
+  }
+}

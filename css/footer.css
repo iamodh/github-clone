@@ -1,0 +1,47 @@
+@import "./var.css";
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: var(--color-light-grey);
+  font-size: 14px;
+  width: 100%;
+}
+
+footer > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 16px;
+  margin-right: 16px;
+}
+
+footer ul li {
+  color: var(--color-grey);
+  font-weight: 300;
+  margin-right: 12px;
+}
+
+footer ul a {
+  text-decoration: none;
+}
+
+.footer-icons {
+  flex-wrap: nowrap;
+  margin-right: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons img {
+  width: 20px;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 666px) {
+  footer {
+    height: 100px;
+  }
+}

@@ -1,0 +1,133 @@
+@import "./var.css";
+
+.header {
+  background-color: var(--color-black);
+  height: 32px;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 14px;
+}
+
+.header-logo {
+  height: 32px;
+  margin-right: 16px;
+}
+
+.header i {
+  color: white;
+}
+
+.header-items {
+  display: flex;
+  width: 90%;
+}
+
+.input-container {
+  width: 40%;
+  position: relative;
+  border: 1px solid var(--color-grey);
+  padding: 8px 32px;
+  position: relative;
+  border-radius: 6px;
+  color: white;
+  margin-right: 20px;
+}
+
+.input-container input {
+  border: none;
+  background-color: var(--color-black);
+  font-size: 14px;
+  width: 90%;
+  color: white;
+}
+
+.input-container input:focus {
+  color: white;
+}
+
+.input-container i {
+  color: var(--color-grey);
+  position: absolute;
+}
+
+.input-search {
+  left: 8px;
+  top: 11px;
+}
+
+.input-enter {
+  border-radius: 4px;
+  right: 8px;
+  top: 6px;
+  padding: 4px;
+  border: 1px solid var(--color-grey);
+}
+
+.global-nav {
+  display: flex;
+  align-items: center;
+}
+
+.global-nav span {
+  font-weight: 500;
+  text-align: center;
+  padding: 0 6px;
+  color: white;
+  text-decoration: none;
+}
+
+.profile-nav {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 32px;
+}
+
+.profile-nav i {
+  margin-right: 8px;
+}
+
+.profile-nav img {
+  height: 20px;
+  border-radius: 50%;
+}
+
+.mobile-bars {
+  display: none;
+}
+
+@media screen and (max-width: 970px) {
+  .header-items {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    width: 33%;
+  }
+  .mobile:nth-child(2) {
+    justify-content: center;
+  }
+
+  .mobile:last-child {
+    justify-content: flex-end;
+  }
+
+  .profile-nav {
+    position: relative;
+    right: 0;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .header-logo {
+    margin: 0;
+  }
+  .pc {
+    display: none;
+  }
+  .mobile > i {
+    margin-right: 0;
+  }
+}
