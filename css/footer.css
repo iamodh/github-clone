@@ -32,7 +32,6 @@ footer ul a {
   flex-wrap: nowrap;
   margin-right: 32px;
   display: flex;
-  justify-content: center;
 }
 
 .footer-icons img {
@@ -43,5 +42,13 @@ footer ul a {
 @media screen and (max-width: 666px) {
   footer {
     height: 100px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .footer-icons {
+    padding: 0;
+    margin: 0;
+    padding-top: 8px;
   }
 }

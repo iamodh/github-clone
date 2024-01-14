@@ -50,7 +50,7 @@
 
 .nav-container-end ul li {
   font-family: "Montserrat", sans-serif !important;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   color: var(--color-grey);
   font-size: 14px;
 }
@@ -68,5 +68,9 @@
 
   .nav-container-end {
     width: 100%;
+  }
+
+  .nav-container-end ul li {
+    margin-bottom: 8px;
   }
 }
