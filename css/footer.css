@@ -44,6 +44,7 @@ footer ul a {
     height: 100px;
     flex-direction: column-reverse;
     align-items: center;
+    padding-bottom: 16px;
   }
 
   .footer-icons {
