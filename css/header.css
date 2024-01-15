@@ -127,7 +127,7 @@
   .pc {
     display: none;
   }
-  .mobile > i {
+  .mobile i {
     margin-right: 0;
   }
 }
