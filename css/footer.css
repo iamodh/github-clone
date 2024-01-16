@@ -39,6 +39,14 @@ footer ul a {
   opacity: 0.5;
 }
 
+.footer-logo--mobile {
+  display: none;
+}
+
+.footer-logo--pc {
+  display: inline;
+}
+
 @media screen and (max-width: 666px) {
   footer {
     height: 100px;
@@ -47,9 +55,25 @@ footer ul a {
     padding-bottom: 16px;
   }
 
+  footer ul {
+    margin-right: 0;
+  }
+
+  .footer-last {
+    margin-right: 0;
+  }
+
   .footer-icons {
     padding: 0;
     margin: 0;
     padding-top: 16px;
+  }
+
+  .footer-logo--mobile {
+    display: block;
+  }
+
+  .footer-logo--pc {
+    display: none;
   }
 }
