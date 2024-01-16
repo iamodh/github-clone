@@ -115,11 +115,13 @@
 }
 
 .rules-yes li::marker {
-  content: "✅ ";
+  content: "✓ ";
+  color: green;
 }
 
 .rules-no li::marker {
-  content: "❌ ";
+  content: "✗ ";
+  color: red;
 }
 
 .rules-yes ul {
