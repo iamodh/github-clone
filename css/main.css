@@ -111,7 +111,7 @@
 }
 
 .rules ul {
-  list-style-position: inside;
+  padding-left: 16px;
 }
 
 .rules-yes li::marker {
